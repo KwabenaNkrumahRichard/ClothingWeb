@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    display: flex;
+}
+nav{
+    padding-left: 40px;
+    position: fixed;
+    left: 0;
+    width: 17vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    z-index: 1;
+    background-color: white;
+}
+nav h1{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+nav ul{
+    list-style: none;
+    margin-top: 30px;
+}
+nav li a{
+    display: inline-block;
+    padding: 10px 100% 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    background: gray;
+}
+.mainlist a{
+    font-size: 30px;
+    color: gray;
+}
+.mainlist a:hover{
+    background-color: gray;
+    color: black;
+}
+.right{
+    margin-left: 17vw;
+    width: 75vw;
+}
+header{
+    margin: 20px 10px;
+}
+header h3{
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.imageheader{
+    width: 75vw;
+    height: auto;
+    position: relative;
+    margin-left: 10px;
+}
+.imageheader img{
+    width: 100%;
+}
+.imageheader p{
+    font-size: 50px;
+    color: white;
+    width: 20ch;
+    
+}
+p span{
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+.imageheader button{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.imageheader div{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.item{
+    color: gray;
+    margin: 10px;
+    font-size: 20px;
+}
+figure img{
+    height: 300px;
+    width: 250px;
+}
+.Product{
+    margin-left: 10px;
+    width: initial;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 9px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    letter-spacing: 3px;
+}
+.firstfooter{
+    background-color: black;
+    width: inherit;
+    margin-top: 20px;
+}
+.firstfooter h3{
+    color: white;
+    padding: 30px 10px 10px;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+.firstfooter p{
+    color: white;
+    padding: 10px;
+}
+.firstfooter input{
+    padding: 10px;
+    margin-left: 10px;
+    width: 73vw;
+}
+.firstfooter button{
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-bottom: 50px;
+}
+.lastfooter{
+    background-color: rgba(128, 128, 128, 0.099);
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+}
+.lastfooter input{
+    width: 25vw;
+    padding: 10px;
+    margin-left: 10px;
+}
+.lastfooter button{
+    margin-left: 10px;
+    width: 25vw;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.lastfooter li{
+    list-style: none;
+    margin: 12px;
+    text-align: center;
+}
+.lastfooter a{
+    color: black;
+}
+.lastfooter h2{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.contact h2{
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about h2{
+    text-align: center;
+}
+.lastfooter .store li{
+    text-align: left;
+}
