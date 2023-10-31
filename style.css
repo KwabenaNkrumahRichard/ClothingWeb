@@ -35,7 +35,7 @@ nav li a:hover{
     background: gray;
 }
 .mainlist a{
-    font-size: 30px;
+    font-size: 2rem;
     color: gray;
 }
 .mainlist a:hover{
@@ -51,7 +51,7 @@ header{
 }
 header h3{
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 100;
 }
 .imageheader{
@@ -64,7 +64,7 @@ header h3{
     width: 100%;
 }
 .imageheader p{
-    font-size: 50px;
+    font-size: 3rem;
     color: white;
     width: 20ch;
     
@@ -89,7 +89,7 @@ p span{
 .item{
     color: gray;
     margin: 10px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 figure img{
     height: 300px;
@@ -187,4 +187,28 @@ figure img{
 }
 .lastfooter .store li{
     text-align: left;
+}
+.absoluteBuy{
+    position: absolute;
+    top: 0;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s ease;
+}
+.absoluteBuy p{
+    color: white;
+    background: black;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+}
+.absoluteBuy:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
 }
